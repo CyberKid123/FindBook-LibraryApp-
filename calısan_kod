@@ -1,0 +1,39 @@
+# Buraya diziler yazılacak
+k1 = ["Harry Potter 1","350","H1"]
+k2 = ["Harry Potter 2","400","H2"]
+k3 = ["Sefiller","2000","S3"]
+k4 = ["Suç ve Ceza","1020","S4"]
+k5 = ["Zaman Makinesi","450","G3"]
+k6 = ["Sherlock Holmes 3","180","R3"]
+k7 = ["Hayvan Çiftliği","460","H2"]
+k8 = ["Körlük","350","K3"]
+k9 = ["Küçük prens","400","K2"]
+k10 = ["Yüzüklerin efendisi 1","1020","G3"]
+
+print("Kütüphanemize Hoş Geldiniz...")
+print("Bu bilgisayar programı ile;\nBulmak istediğiniz kitabı rahatlıkla bulabilirsiniz...\nNot)Programımız büyük/küçük harfe duyarlıdır...")
+print("Lütfen aramak istediğiniz kitabın ismini giriniz.")
+ara = input("Ara:")  # Bu satira bulunmak istenilen kitabin ismi girilir.
+
+if ara == "Harry Potter 1":
+    print("Kitap adı:", k1[0], "\nSayfa sayısı:", k1[1], "\nBulunduğu raf:", k1[2])
+elif ara == "Harry Potter 2":
+    print("Kitap adı:", k2[0], "\nSayfa sayısı:", k2[1], "\nBulunduğu raf:", k2[2])
+elif ara == "Sefiller":
+    print("Kitap adı:", k3[0], "\nSayfa sayısı:", k3[1], "\nBulunduğu raf:", k3[2])
+elif ara == "Suç ve Ceza":
+    print("Kitap adı:", k4[0], "\nSayfa sayısı:", k4[1], "\nBulunduğu raf:", k4[2])
+elif ara == "Zaman Makinesi":
+    print("Kitap adı:", k5[0], "\nSayfa sayısı:", k5[1], "\nBulunduğu raf:", k5[2])
+elif ara == "Sherlock Holmes 3":
+    print("Kitap adı:", k6[0], "\nSayfa sayısı:", k6[1], "\nBulunduğu raf:", k6[2])
+elif ara == "Hayvan Çiftliği":
+    print("Kitap adı:", k7[0], "\nSayfa sayısı:", k7[1], "\nBulunduğu raf:", k7[2])
+elif ara == "Körlük":
+    print("Kitap adı:", k8[0], "\nSayfa sayısı:", k8[1], "\nBulunduğu raf:", k8[2])
+elif ara == "Küçük prens":
+    print("Kitap adı:", k9[0], "\nSayfa sayısı:", k9[1], "\nBulunduğu raf:", k9[2])
+elif ara == "Yüzüklerin efendisi 1":
+    print("Kitap adı:", k10[0], "\nSayfa sayısı:", k10[1], "\nBulunduğu raf:", k10[2])
+else:
+    print("Aradığınız kitap kütüphanemizde bulunmamaktadır...")
